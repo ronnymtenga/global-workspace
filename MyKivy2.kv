@@ -1,0 +1,14 @@
+<MyBox>: 
+    myInput: inputID
+
+    BoxLayout: 
+        size: root.width, root.height
+        orientation: 'vertical'
+
+        TextInput:
+            id: inputID
+
+        Button: 
+            text: 'Click here'
+            on_press: root.printOut()
+             
